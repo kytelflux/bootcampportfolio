@@ -1,0 +1,101 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+    font-family: "Medium";
+    font-size: 18px;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.container {
+  height: 100vph;
+  width: 100vw;
+  height: 100vh;
+  margin: 0; 
+  padding: 0;
+  border: 2px solid orange;
+
+}
+
+.delayheader {
+  animation-delay: 0.8s;
+}
+
+h1 {
+ font-size: 15rem;
+ margin: 0;
+ 
+}
+
+h2 {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.navcontainer {
+  text-align: center;
+}
+
+nav a {
+  display: inline;
+  padding: 0 1rem;
+  color: white;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #223c88;
+}
+
+
+.firstrow {
+    font-size: 4rem;
+    padding-top: 3rem;
+    margin: 1rem;
+    padding-bottom: 0;
+    line-height: 5%;
+}
+
+.secondrow {
+    font-size: 5rem;
+    margin: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 5%;
+}
+
+.thirdrow {  
+    font-size: 3rem;
+    margin: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 5%;
+
+}
+
+.fourthrow {
+    font-size: 2rem;
+    margin: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 5%
+}
+
+p {
+  line-height: 60%;
+}
+
+h3 {
+  text-align: center;
+}
